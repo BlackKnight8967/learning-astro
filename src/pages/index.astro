@@ -1,0 +1,11 @@
+---
+import Main from "../layouts/Main.astro";
+import List from "../components/List.astro";
+import "../styles/style.scss"
+const items = ["HTML", "CSS", "JS", "PHP", "SASS", "TS", "React", "Vue", "Angular", "Svelte", "Preact", "Astro",
+	"Node", "Deno", "Next", "Nuxt", "Jest", "Redux", "MobX", "RxJS", "VueX"]
+---
+
+<Main title="Astro Project">
+	<List items={items} style="container"/>
+</Main>
